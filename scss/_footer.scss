@@ -1,0 +1,14 @@
+footer{
+    padding: 15px;
+    background-image: url(../img/dirty_old_shirt.png);
+    color: $bg_gris;
+    font-size: 11px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    .footer{
+        color: $bg_blanco;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        }
+}

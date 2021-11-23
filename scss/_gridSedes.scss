@@ -1,0 +1,45 @@
+@mixin piletas ($grid){
+    grid-area: $grid;
+    :hover{
+        border: black solid 2px;
+        border-radius: 2%;
+    }
+}
+
+.gridSedes{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "pileta1 pileta2"
+    "pileta3 pileta4"
+    "pileta5 pileta5";
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+    gap: 5px;
+    .img_main:hover{
+        border: black solid 2px;
+        border-radius: 2%; }
+        
+    .pileta1{
+        @include piletas(pileta1)
+    }
+    
+    .pileta2{
+        @include piletas(pileta2)
+    }
+    
+    .pileta3{
+        @include piletas(pileta3)
+    }
+    
+    .pileta4{
+        @include piletas(pileta4)
+    }
+    
+    .pileta5{
+        @include piletas(pileta5);
+        margin-bottom: 10px;
+    }    
+}

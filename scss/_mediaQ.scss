@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+    .gridSedes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+        grid-template-areas:
+        "pileta1"
+        "pileta2"
+        "pileta3"
+        "pileta4"
+        "pileta5";
+    } 
+}

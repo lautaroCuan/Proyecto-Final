@@ -1,0 +1,14 @@
+header{
+    .navbar{
+        position: fixed;
+        width: 100vw;
+        height: 7.5rem;
+        z-index: 100;
+        top: 0;
+        color: $bg_blanco;
+    }
+    h1{
+        margin-top: 9rem;
+        margin-left: 2rem;
+    }
+}
